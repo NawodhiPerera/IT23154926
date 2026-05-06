@@ -24,7 +24,7 @@ README.pdf: Project documentation.
 To execute the test suite, navigate to the project folder and run:
 
 DOS
-python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --sheet " Test cases" --wait-ms 15000 --type-delay-ms 150 --save-every 1
+python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --sheet " Test cases" --input-col "Input" --wait-ms 10000 --save-every 1
 
 5. Test Coverage
 The test suite includes 50 cases covering:
