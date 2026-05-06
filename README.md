@@ -9,7 +9,6 @@ This project implements an automated testing framework for the "Chat Translator"
 2. Setup Instructions
 To set up the environment, run the following commands in your terminal:
 
-DOS
 pip install playwright pandas openpyxl
 playwright install chromium
 
@@ -23,7 +22,6 @@ README.pdf: Project documentation.
 4. How to Run
 To execute the test suite, navigate to the project folder and run:
 
-DOS
 python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --sheet " Test cases" --input-col "Input" --wait-ms 10000 --save-every 1
 
 5. Test Coverage
